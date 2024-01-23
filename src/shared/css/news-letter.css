@@ -1,0 +1,66 @@
+.newsletter{
+    background: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)),
+    url('../../assets/img/banners/cat_banner.jpg');
+    background-attachment: unset; /* 'fixed' does not work */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter__img img{
+    width: 100%;
+}
+
+.newsletter__content{
+    margin-top: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: var(--heading-color);
+}
+
+.newsletter__content h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color:#fff !important;
+}
+
+.newsletter__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.newsletter__input input{
+    padding-left: 1rem;
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+    width: 100%;
+}
+
+.newsletter__input input:focus{
+    outline: none;
+}
+
+.newsletter__btn{
+    padding: 0.5rem 1.5rem !important;
+    background: var(--secondary-color) !important;
+    color:#fff !important;
+    font-size: 1.1rem;
+}
+
+.newsletter__content p{
+    color: var(--heading-color);
+    font-style: 1.1rem !important;
+    padding-bottom: 1rem;
+    color:whitesmoke !important;
+}
